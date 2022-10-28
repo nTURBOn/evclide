@@ -12,6 +12,8 @@
   /* nav__search */
   body .nav__search--text--active {
     width: 221px;
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
   }
 
@@ -487,6 +489,8 @@
 
   body .nav__search--text--active {
     width: 296px;
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
   }
 
