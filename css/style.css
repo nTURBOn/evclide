@@ -52,6 +52,10 @@ body {
   overflow-x: hidden;
 }
 
+a, h1, h2, h3, h4, h5, h6, button {
+  color: #000;
+}
+
 .container {
   /* margin: 0 75px; */
   width: 1770px;
@@ -696,25 +700,32 @@ body .container .swiper--1920 {
   background-color: transparent;
   margin: 0;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+body .ui-accordion .ui-accordion-content {
+  padding: 1em 1em
 }
 
 .about__button:focus {
   background-color: var(--default--color);
-  border: 2px solid var(--default--color);
+  outline: 2px solid var(--default--color);
   outline: none;
+  color: var(--white-color);
 }
 
 .about__button:hover {
   background-color: var(--default--color);
-  border: 2px solid var(--default--color);
+  outline: 2px solid var(--default--color);
   outline: none;
+  color: var(--white-color);
 }
 
 .about__button:active {
   background-color: var(--active-color);
-  border: 2px solid var(--active-color);
+  outline: 2px solid var(--active-color);
   outline: none;
+  color: var(--white-color);
 }
 
 .about__list--title {
