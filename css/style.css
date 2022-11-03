@@ -414,6 +414,7 @@ body .burger__list--fastremove {
   font-size: 18px;
   line-height: 22px;
   cursor: pointer;
+  color: black;
 }
 
 .tabs-nav__btn:focus {
@@ -891,6 +892,7 @@ body .ui-accordion .ui-accordion-content {
 
 .work__contract {
   cursor: pointer;
+  color: black;
 }
 
 .work__step:active {
