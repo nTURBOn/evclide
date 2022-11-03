@@ -400,7 +400,7 @@ body .burger__list--fastremove {
   margin-bottom: 45px;
 }
 
-.tabs-nav__btn--active {
+.tabs-nav__item .tabs-nav__btn--active {
   color: #E1670E;
   -webkit-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
