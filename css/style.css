@@ -258,6 +258,7 @@ body .search__close--active {
   height: 100%;
   overflow: visible;
   z-index: 100;
+  top: 0;
 }
 
 .nav__search {
@@ -273,6 +274,7 @@ body .search__close--active {
   -webkit-transition: width 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
+  top: 32px;
 }
 
 .search__close {
