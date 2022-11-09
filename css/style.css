@@ -524,8 +524,9 @@ body .burger__list--fastremove {
 }
 
 .nav__search:focus {
-  outline: 2px solid var(--default--color);
-  outline-offset: 5px;
+  /* outline: 2px solid var(--default--color);
+  outline-offset: 5px; */
+  outline: none;
 }
 
 /* .nav__search:hover {
